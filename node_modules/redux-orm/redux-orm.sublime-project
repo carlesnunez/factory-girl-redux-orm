@@ -1,0 +1,35 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+  "settings":
+  {
+      "tab_size": 4,
+      "translate_tabs_to_spaces": true
+  },
+  "SublimeLinter":
+    {
+      "linters":
+      {
+        "eslint": {
+          "@disable": false,
+          "chdir": "${project}",
+          "excludes": [],
+        },
+        "eslint_d": {
+          "@disable": true,
+          "args": "--config '${project}/.eslintrc'",
+          "excludes": ["*/node_modules/*"],
+          "chdir": "${project}"
+        },
+        "jscs": {
+          "@disable": false,
+          "args": "-c '${project}/.jscsrc'",
+          "excludes": ["*/node_modules/*"]
+        }
+      }
+    }
+}

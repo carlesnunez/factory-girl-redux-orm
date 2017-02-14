@@ -1,0 +1,37 @@
+{
+  "name": "factory-girl-redux-orm",
+  "version": "1.0.0",
+  "description": "Redux ORM Adapter for the factory-girl Node library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:carlesnunez/factory-girl-redux-orm.git"
+  },
+  "keywords": [
+    "factory-girl",
+    "factory",
+    "test",
+    "bdd",
+    "tdd",
+    "fixture",
+    "redux-orm"
+  ],
+  "author": "Carles Nunez Tomeo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlesnunez/factory-girl-redux-orm/issues"
+  },
+  "homepage": "https://github.com/carlesnunez/factory-girl-redux-orm",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "factory-girl": "^1.1.0",
+    "mocha": "^2.0.1"
+  }
+}

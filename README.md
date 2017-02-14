@@ -1,7 +1,7 @@
 factory-girl-mongoose
 =====================
 
-A [ReduxORM](https://github.com/tommikaikkonen/redux-orm) adapter for [factory-girl](https://github.com/aexmachina/factory-girl
+A [ReduxORM](https://github.com/tommikaikkonen/redux-orm) adapter for [factory-girl](https://github.com/aexmachina/factory-girl)
 ## Usage
 
 ```javascript
@@ -12,4 +12,3 @@ import orm from '<YOUR REDUX ORM  MODELS DIRECTORY'>
 const session = orm.session(); // Before withMutations;
 factory.setAdapter(new ReduxORMAdapter(session));
 ```
-
